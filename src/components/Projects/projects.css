@@ -1,0 +1,18 @@
+#canvas3d-container {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#canvas3d {
+  height: 100%;
+  width: 100%;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
+}
