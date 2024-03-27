@@ -4,7 +4,7 @@ import prof_pic from "../../assets/prof2.jpg";
 
 export default function About() {
   return (
-    <>
+    <section className="scroller">
       <div className="main light">
         <div className="half content light">
           <div id="section-container">
@@ -28,6 +28,6 @@ export default function About() {
           </div>
         </div>
       </div>
-    </>
+    </section>
   );
 }

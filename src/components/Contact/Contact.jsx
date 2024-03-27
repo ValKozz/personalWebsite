@@ -6,15 +6,17 @@ export default function Contact() {
   // }
 
   return (
-    <>
+    <section className="scroller">
       <div className="main light">
-        <div id="main-contact light">
+        {/* Layout starts here */}
+        <div id="main-contact">
           <div id="section-title">
             <h1 className="sectionTitle" id="hover-title">
               Contact me
             </h1>
             <h3>Send me an e-mail!</h3>
           </div>
+
           <div id="contact-form">
             <form id="formid">
               <div id="name-div">
@@ -41,11 +43,11 @@ export default function Contact() {
                 />
               </div>
 
-              <button id="submit">Submit!</button>
+              <button id="submit">Send!</button>
             </form>
           </div>
         </div>
       </div>
-    </>
+    </section>
   );
 }

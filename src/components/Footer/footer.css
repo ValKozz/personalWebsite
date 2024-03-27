@@ -1,4 +1,28 @@
+#end-comparment {
+  width: 100vw;
+  height: 20vh;
+  filter: drop-shadow(0 0 em #646cffaa);
+  background: var(--med-dark);
+}
+
 #footer {
-  height: 50vh;
-  background-color: var(--light);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#icon-list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.icon {
+  fill: var(--med-light);
+}
+
+.icon:hover {
+  fill: var(--light);
+  filter: drop-shadow(0 0 10em #646cffaa);
 }

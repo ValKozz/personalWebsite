@@ -2,13 +2,10 @@
   /* max-width: 1280px; */
   margin: 0 auto;
   text-align: center;
-  background-color: var(--dark);
+  display: flex;
 }
 
-body {
-  background-color: var(--dark);
-}
-
+/*  This stays here or we get borders when moving troughs */
 .light {
   background: radial-gradient(
     circle at calc(var(--x) * 1px) calc(var(--y) * 1px),
@@ -16,18 +13,13 @@ body {
     transparent 10%
   );
   background-attachment: fixed;
-  z-index: 9999999;
 }
 
-.half {
-  background-color: var(--dark);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  width: 50%;
-  height: 100%;
-  float: left;
+#scroll-container {
+  overflow: scroll;
+  height: 100vh;
+  scroll-snap-points-y: repeat(100vh);
+  scroll-snap-type: y mandatory;
 }
 
 .main {
@@ -37,7 +29,7 @@ body {
 }
 
 .sectionTitle {
-  font-size: 3.2rem;
+  font-size: 4.8rem;
   line-height: 1.1;
 }
 
@@ -49,14 +41,24 @@ body {
   filter: drop-shadow(0 0 10em #646cffaa);
 }
 
-/* #light {
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0);
-  background-position-x: 0%;
-  background-position-y: 0%;
-  background-repeat: repeat;
-  background-attachment: scroll;
-  background-size: auto;
-  background-origin: padding-box;
-  background-clip: border-box;
-} */
+#text-area {
+  font-size: large;
+  color: var(--med-light);
+  background-color: transparent;
+  margin: 10%;
+  display: flex;
+  text-wrap: wrap;
+}
+
+.half {
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: var(--dark);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 40%;
+  height: 100%;
+  float: left;
+}

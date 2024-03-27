@@ -7,6 +7,7 @@ import { useEffect } from "react";
 import PageTitle from "./components/Title/PageTitle";
 
 export default function App() {
+  // Spotlight
   const injectCursorPos = ({ x, y }) => {
     document.documentElement.style.setProperty("--x", Math.round(x));
     document.documentElement.style.setProperty("--y", Math.round(y));
@@ -15,7 +16,7 @@ export default function App() {
   useEffect(() => document.body.addEventListener("mousemove", injectCursorPos));
 
   return (
-    <div className="light">
+    <div className="light" id="scroll-container">
       <PageTitle />
       <About />
       <Projects />

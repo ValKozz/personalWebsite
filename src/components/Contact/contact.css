@@ -1,4 +1,6 @@
 #main-contact {
+  display: flex;
+  justify-content: center;
   height: 100vh;
   width: 100%;
   display: flex;
@@ -20,9 +22,12 @@
   color: var(--med-light);
 }
 
-/* .input-field:hover {
+/* Maybe not */
+.input-field:hover {
+  color: var(--dark);
+  background-color: var(--med-light);
   filter: drop-shadow(0 0 10em #646cffaa);
-} */
+}
 
 .input-field:focus {
   filter: drop-shadow(0 0 10em #646cffaa);
@@ -39,8 +44,13 @@
   vertical-align: center;
 }
 
+#contact-form textarea {
+  min-height: 10vh;
+}
+
 #formid {
   width: 100%;
+  height: 100%;
 }
 
 #contact-form:hover {
@@ -54,7 +64,8 @@
 
 #contact-form textarea:hover {
   filter: drop-shadow(0 0 10em #646cffaa);
-  color: var(--med-light);
+  background-color: var(--med-light);
+  color: var(--dark);
 }
 
 #contact-form textarea:focus {
