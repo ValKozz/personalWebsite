@@ -8,6 +8,13 @@
   flex-direction: column;
 }
 
+#contact-title {
+  display: flex;
+  align-items: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .input-field {
   transition: all 0.3s ease-in-out;
   outline: 0;

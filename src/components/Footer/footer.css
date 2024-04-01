@@ -1,11 +1,11 @@
 #end-comparment {
+  margin-top: 10%;
   width: 100vw;
   height: 20vh;
-  filter: drop-shadow(0 0 em #646cffaa);
-  background: var(--med-dark);
 }
 
 #footer {
+  clear: both;
   width: 100%;
   height: 100%;
   display: flex;

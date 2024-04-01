@@ -10,7 +10,7 @@ export default function Contact() {
       <div className="main light">
         {/* Layout starts here */}
         <div id="main-contact">
-          <div id="section-title">
+          <div id="contact-title">
             <h1 className="sectionTitle" id="hover-title">
               Contact me
             </h1>
