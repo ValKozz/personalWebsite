@@ -13,12 +13,12 @@ export default function Contact() {
     e.preventDefault();
     if (messages_sent < 2) {
       messages_sent = messages_sent + 1;
-      // emailjs.sendForm(
-      //   "service_p9egi5g",
-      //   "template_fp3gf9v",
-      //   e.target,
-      //   "_mHX7xlw4gS_IzzOd"
-      // );
+      emailjs.sendForm(
+        "service_p9egi5g",
+        "template_fp3gf9v",
+        e.target,
+        "_mHX7xlw4gS_IzzOd"
+      );
       sendInfo();
     } else {
       sendWarning();
