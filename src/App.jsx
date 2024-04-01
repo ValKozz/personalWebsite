@@ -5,7 +5,6 @@ import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import { useEffect } from "react";
 import PageTitle from "./components/Title/PageTitle";
-
 export default function App() {
   // Spotlight
   const injectCursorPos = ({ x, y }) => {

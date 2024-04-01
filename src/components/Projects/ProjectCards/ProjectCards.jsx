@@ -7,8 +7,7 @@ export default function ProjectCards() {
 
   return (
     <div className="card-container">
-      <Card title={"Test"} text={content} img_source={false} />
-      <Card title={"Test"} text={content} img_source={false} />
+      <Card title={"Cows and Bulls"} text={content} link="https://google.com" />
       <Card title={"Test"} text={content} img_source={false} />
       <Card title={"Test"} text={content} img_source={false} />
       <Card title={"Test"} text={content} img_source={false} />

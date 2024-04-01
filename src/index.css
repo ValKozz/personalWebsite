@@ -71,3 +71,7 @@ button:hover {
 .scroller {
   scroll-snap-align: start;
 }
+
+.scroller-end {
+  scroll-snap-align: end;
+}
