@@ -1,7 +1,6 @@
 import "./projectCards.css";
 import Card from "./Card";
 import data from "./data.json";
-import { events } from "@react-three/fiber";
 
 export default function ProjectCards(props) {
   return (
