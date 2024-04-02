@@ -9,7 +9,7 @@ function getGeometry(scale, color) {
 
   const material = new LineBasicMaterial({
     color: new Color(color),
-    linewidth: 20,
+    linewidth: 1,
   });
 
   const args = [edgeBase, material];
