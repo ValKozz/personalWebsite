@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Personal Website",
+    "link": "https://github.com/ValKozz/2Way-Morse",
+    "desc": "    My very own personal website and first I've ever built using React/Vite."
+  },
+  {
+    "name": "2Way-Morse",
+    "link": "https://github.com/ValKozz/2Way-Morse",
+    "desc": "    Console based Morse code 2-way Translator, fearing audio playback of result using pyttsx3(Text to speech) and pygame(Mixer audio engine) and numpy"
+  },
+  {
+    "name": "CondPDA",
+    "link": "https://github.com/ValKozz/CondPDA",
+    "desc": "    Convert PDF files to mp3 Audio Books through the command line terminal. Uses gTTa and tika.\n"
+  },
+  {
+    "name": "Cows_and_Bulls",
+    "link": "https://github.com/ValKozz/Cows_and_Bulls",
+    "desc": "    The Cows and Bulls guessing game, with the abilitty to play againts the computer, where it tries to guess your number. Beware, it has a 100% guess rate."
+  },
+  {
+    "name": "Watermarker",
+    "link": "https://github.com/ValKozz/Watermarker",
+    "desc": "    A simple Custom Tkinter program to add watermarks to images. Uses the PIL(Python Pillow) library to provide some basic image editing operations. Currently, supports JPEG and PNG."
+  }
+]

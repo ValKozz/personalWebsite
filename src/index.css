@@ -6,9 +6,7 @@
   --med-light: #76abae;
   --light: #eeeeee;
 
-  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
-  /* font-family: system-ui, JetBrains Mono; */
-  font-family: "JetBrains Mono";
+  font-family: "JetBrains Mono", system-ui;
 
   line-height: 1.5;
   font-weight: 400;
