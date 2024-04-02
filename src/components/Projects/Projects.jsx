@@ -41,7 +41,10 @@ export default function Projects() {
                 <a href="https://github.com/ValKozz">Projects</a>
               </h1>
               <div id="text-area">
-                <p>Check out my Projects or visit my GitHub page!</p>
+                <p>
+                  Check out my Projects by clicking on the arrow button or visit
+                  my GitHub page!
+                </p>
               </div>
             </div>
           </div>
