@@ -2,8 +2,7 @@
   {
     "name": "Personal Website",
     "link": "https://github.com/ValKozz/2Way-Morse",
-    "desc": "    My very own personal website and first I've ever built using React/Vite.",
-    "img_source": "./react.svg"
+    "desc": "    My very own personal website and first I've ever built using React/Vite."
   },
   {
     "name": "2Way-Morse",
