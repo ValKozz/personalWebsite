@@ -90,14 +90,6 @@
   overflow-x: clip !important;
 }
 
-.scroller {
-  scroll-snap-align: start;
-}
-
-.scroller-end {
-  scroll-snap-align: end;
-}
-
 #page-title:hover {
   filter: drop-shadow(0 0 10em #646cffaa);
 }

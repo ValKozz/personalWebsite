@@ -1,6 +1,7 @@
 @media (max-width: 480px) {
   #end-comparment {
     width: 100vw;
+    display: flex;
   }
 
   #footer {
@@ -28,7 +29,6 @@
 
 @media (min-width: 481px) {
   #end-comparment {
-    margin-top: 10%;
     width: 100vw;
     height: 20vh;
   }
