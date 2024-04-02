@@ -23,7 +23,7 @@ export default function Projects() {
               id="drawer"
               className={`${btnState ? "isClosed" : "isOpen"} light`}
             >
-              <ProjectCards btnState={btnState} setState={setState} />
+              <ProjectCards onClick={setState} />
             </div>
           </div>
           <div className="half content light" id="projects-cont">

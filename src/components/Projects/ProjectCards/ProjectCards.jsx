@@ -1,8 +1,9 @@
 import "./projectCards.css";
 import Card from "./Card";
 import data from "./data.json";
+import { events } from "@react-three/fiber";
 
-export default function ProjectCards() {
+export default function ProjectCards(props) {
   return (
     <div className="drawer-container">
       <div className="card-container">
@@ -18,7 +19,7 @@ export default function ProjectCards() {
           );
         })}
       </div>
-      <div className="btn-container">
+      <div className="btn-container" onClick={(e) => props.onClick(e)}>
         <button>{"<-"}</button>
       </div>
     </div>
