@@ -54,7 +54,7 @@
 @media (max-width: 480px) {
   .main {
     background-color: var(--dark);
-    height: 100vh;
+    height: 90vh;
     width: 100vw;
   }
 
@@ -79,15 +79,6 @@
     font-size: 2.8rem;
     line-height: 1.1;
   }
-}
-
-#scroll-container {
-  overflow: scroll;
-  height: 100vh;
-  scroll-snap-points-y: repeat(100vh);
-  scroll-snap-type: y proximity;
-  overflow-x: hidden;
-  overflow-x: clip !important;
 }
 
 #page-title:hover {

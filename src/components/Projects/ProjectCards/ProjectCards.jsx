@@ -2,12 +2,7 @@ import "./projectCards.css";
 import Card from "./Card";
 import data from "./data.json";
 
-export default function ProjectCards(btnState, setState) {
-  const changeState = () => {
-    setState(!btnState);
-    console.log("state is " + btnState);
-  };
-
+export default function ProjectCards() {
   return (
     <div className="drawer-container">
       <div className="card-container">
@@ -23,8 +18,8 @@ export default function ProjectCards(btnState, setState) {
           );
         })}
       </div>
-      <div className="close-card-container">
-        <button onClick={changeState}>{"<-"}</button>
+      <div className="btn-container">
+        <button>{"<-"}</button>
       </div>
     </div>
   );
