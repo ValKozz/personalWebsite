@@ -12,6 +12,7 @@ export default function ProjectCards() {
             title={project.name}
             link={project.link}
             text={project.desc}
+            img_source={project.img_source}
           />
         );
       })}

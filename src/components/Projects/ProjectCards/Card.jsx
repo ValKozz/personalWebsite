@@ -5,7 +5,7 @@ export default function Card({ title, text, img_source, link }) {
     <a href={link}>
       <div className="card">
         <div className="card-title">
-          <h1 id="card-title">{title}</h1>
+          <h1 id="card-h1">{title}</h1>
         </div>
         <div className="card-content">
           {img_source ? <img className="card-image" src={img_source} /> : ""}

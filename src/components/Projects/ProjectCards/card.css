@@ -9,19 +9,20 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   background-color: white;
-  width: 5rem;
   padding: 1rem 2rem;
   margin: 2rem;
   display: flex;
   align-content: center;
   justify-content: center;
   flex-direction: column;
-  min-width: 15rem;
+  height: 26rem;
 }
 
-#card-title {
+#card-h1 {
   font-size: 2rem;
   padding: 1rem;
+  display: flex;
+  align-items: center;
 }
 
 .card-title {
@@ -30,21 +31,22 @@
   font-size: 1rem;
 }
 
-h1.card-title .card-content {
+h1.card-title,
+.card-content {
   display: flex;
   align-items: center;
   flex-direction: column;
-  overflow-y: scroll;
+  overflow-x: hidden;
   font-size: 1rem;
   object-fit: contain;
   word-break: break-all;
   white-space: pre-wrap;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 .card-image {
   padding: 1rem;
-  width: 200px;
+  width: 48px;
   object-fit: cover;
   display: flex;
   align-items: center;

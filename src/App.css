@@ -1,18 +1,77 @@
-#root {
-  /* max-width: 1280px; */
-  margin: 0 auto;
-  text-align: center;
-  display: flex;
+@media (min-width: 481px) {
+  /*  This stays here or we get borders when moving troughs */
+  .light {
+    background: radial-gradient(
+      circle at calc(var(--x) * 1px) calc(var(--y) * 1px),
+      hsl(0 0% 80% / 0.2),
+      transparent 10%
+    );
+    background-attachment: fixed;
+  }
+
+  #root {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-items: center;
+  }
+  .main {
+    background-color: var(--dark);
+    height: 100vh;
+    width: 100%;
+  }
+
+  .half {
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: var(--dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 40%;
+    height: 100%;
+    float: left;
+  }
+
+  .sectionTitle {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 4.8rem;
+    line-height: 1.1;
+  }
 }
 
-/*  This stays here or we get borders when moving troughs */
-.light {
-  background: radial-gradient(
-    circle at calc(var(--x) * 1px) calc(var(--y) * 1px),
-    hsl(0 0% 40% / 0.2),
-    transparent 10%
-  );
-  background-attachment: fixed;
+@media (max-width: 481px) {
+  .main {
+    background-color: var(--dark);
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .half {
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: var(--dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    height: 50%;
+    float: left;
+  }
+
+  .sectionTitle {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 2.8rem;
+    line-height: 1.1;
+  }
 }
 
 #scroll-container {
@@ -21,21 +80,6 @@
   scroll-snap-points-y: repeat(100vh);
   scroll-snap-type: y mandatory;
   overflow-x: hidden;
-}
-
-.main {
-  background-color: var(--dark);
-  height: 100vh;
-  width: 100%;
-}
-
-.sectionTitle {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  font-size: 4.8rem;
-  line-height: 1.1;
 }
 
 #page-title:hover {
@@ -53,17 +97,4 @@
   margin: 10%;
   display: flex;
   text-wrap: wrap;
-}
-
-.half {
-  padding-left: 5%;
-  padding-right: 5%;
-  background-color: var(--dark);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  width: 40%;
-  height: 100%;
-  float: left;
 }

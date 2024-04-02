@@ -14,7 +14,7 @@ export default function Projects() {
   return (
     <section className="scroller light">
       <div className="main light">
-        <div className="main">
+        <div className="main projects-container">
           <div className="half light animated">
             <div id="canvas3d-container" className="light">
               <CanvasThreeFiber id="canvas3d" />
