@@ -26,7 +26,7 @@ export default function Contact() {
   };
 
   return (
-    <section className="scroller">
+    <section className="scroller-end">
       <ToastContainer
         toastStyle={{
           backgroundColor: "#222831",
