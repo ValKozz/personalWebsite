@@ -1,5 +1,16 @@
+.drawer-container {
+  display: flex;
+  float: left;
+  width: 100%;
+  height: 100%;
+}
+
+.close-card-container {
+  display: flex;
+  align-items: center;
+}
+
 .card-container {
-  overflow-y: scroll;
   display: grid;
   width: 100%;
   height: 100%;
@@ -7,14 +18,16 @@
   grid-column-gap: 1em;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 480px) {
   .card-container {
+    overflow-x: scroll;
     grid-template-columns: repeat(1, 1fr);
   }
 }
 
-@media (min-width: 1201px) {
+@media (min-width: 481px) {
   .card-container {
+    overflow-y: scroll;
     grid-template-columns: repeat(2, 1fr);
   }
 }

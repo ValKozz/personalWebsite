@@ -5,7 +5,6 @@
   }
 
   #canvas3d-container {
-    z-index: 1;
     background-color: var(--dark);
     height: 100%;
     width: 100%;
@@ -18,19 +17,17 @@
   }
 
   #drawer {
-    z-index: 2;
     position: absolute;
     width: 100%;
     height: 100%;
     background-color: var(--dark);
     transition: left 0.5s cubic-bezier(0.82, 0.085, 0.395, 0.895);
     top: 0;
-    left: 0;
+    left: 0vw;
   }
 
   #drawer.isOpen {
     transition: left 0.5s cubic-bezier(0.82, 0.085, 0.395, 0.895);
-
     width: 100%;
   }
 
@@ -50,12 +47,12 @@
   }
 
   #projects-cont {
+    height: 100vh;
     position: absolute;
-    bottom: 0;
+    z-index: inherit;
   }
 
   #canvas3d-container {
-    z-index: 1;
     background-color: var(--dark);
     height: 100%;
     width: 100%;
@@ -72,11 +69,11 @@
     z-index: 2;
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background-color: var(--dark);
     transition: left 0.5s cubic-bezier(0.82, 0.085, 0.395, 0.895);
     top: 0;
-    left: -200;
+    left: 0;
   }
 
   #drawer.isOpen {
@@ -85,6 +82,6 @@
   }
 
   #drawer.isClosed {
-    left: -50vw;
+    left: -100vw;
   }
 }

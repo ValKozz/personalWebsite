@@ -23,7 +23,7 @@ export default function Projects() {
               id="drawer"
               className={`${btnState ? "isClosed" : "isOpen"} light`}
             >
-              <ProjectCards />
+              <ProjectCards btnState={btnState} setState={setState} />
             </div>
           </div>
           <div className="half content light" id="projects-cont">
@@ -33,7 +33,7 @@ export default function Projects() {
                 className={`${btnState ? "isClosed" : "isOpen"}`}
                 onClick={changeState}
               >
-                {"<-"}
+                {"<->"}
               </button>
             </div>
             <div id="title">

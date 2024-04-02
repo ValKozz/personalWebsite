@@ -42,9 +42,16 @@
     font-size: 4.8rem;
     line-height: 1.1;
   }
+  .scroller {
+    scroll-snap-align: start;
+  }
+
+  .scroller-end {
+    scroll-snap-align: end;
+  }
 }
 
-@media (max-width: 481px) {
+@media (max-width: 480px) {
   .main {
     background-color: var(--dark);
     height: 100vh;
@@ -78,8 +85,17 @@
   overflow: scroll;
   height: 100vh;
   scroll-snap-points-y: repeat(100vh);
-  scroll-snap-type: y mandatory;
+  scroll-snap-type: y proximity;
   overflow-x: hidden;
+  overflow-x: clip !important;
+}
+
+.scroller {
+  scroll-snap-align: start;
+}
+
+.scroller-end {
+  scroll-snap-align: end;
 }
 
 #page-title:hover {
