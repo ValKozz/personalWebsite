@@ -19,7 +19,7 @@ export default function ProjectCards(props) {
         })}
       </div>
       <div className="btn-container" onClick={(e) => props.onClick(e)}>
-        <button>{"<-"}</button>
+        <button>{"<"}</button>
       </div>
     </div>
   );

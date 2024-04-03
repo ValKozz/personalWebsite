@@ -8,7 +8,7 @@ export default function About() {
       <div className="main light">
         <div className="half content light">
           <div id="section-container">
-            <div>
+            <div id="about-title">
               <h1 className="sectionTitle" id="hover-title">
                 About Me
               </h1>
@@ -17,9 +17,9 @@ export default function About() {
               <p className="about-overview">
                 I am an aspiring Python Developer with branching interests -
                 Design, AI and Linux systems among them. Current main focus is
-                on Python and React. I have expierince integrated systems to a
-                point as well as a Computer Hardware and Technology professional
-                Diploma. Looking to branch out into Software Development.
+                on Python and React. I have experience in Computer Hardware
+                including a professional diploma in Computer Hardware
+                Technology. Looking to branch out into Software Development.
               </p>
             </div>
           </div>

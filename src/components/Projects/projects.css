@@ -38,6 +38,10 @@
 
 /* MOBILE */
 @media (max-width: 480px) {
+  #projects-title {
+    display: flex;
+    justify-content: left;
+  }
   .projects-container {
     position: relative;
   }

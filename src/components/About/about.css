@@ -8,6 +8,10 @@
   .about-overview {
     text-align: left;
   }
+  #about-title {
+    display: flex;
+    text-align: left;
+  }
 }
 
 #mypic {

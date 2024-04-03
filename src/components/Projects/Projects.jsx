@@ -33,15 +33,18 @@ export default function Projects() {
                 className={`${btnState ? "isClosed" : "isOpen"}`}
                 onClick={changeState}
               >
-                {"->"}
+                {">"}
               </button>
             </div>
-            <div id="title">
-              <h1 className="sectionTitle" id="hover-title">
-                <a href="https://github.com/ValKozz">Projects</a>
-              </h1>
+            <div className="section-content">
+              <div id="projects-title">
+                <h1 className="sectionTitle" id="hover-title">
+                  <a href="https://github.com/ValKozz">Projects</a>
+                </h1>
+              </div>
+
               <div id="text-area">
-                <p>
+                <p className="about-overview">
                   Check out my Projects by clicking on the arrow button or visit
                   my GitHub page!
                 </p>
