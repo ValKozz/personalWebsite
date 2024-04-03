@@ -33,7 +33,7 @@ export default function Projects() {
                 className={`${btnState ? "isClosed" : "isOpen"}`}
                 onClick={changeState}
               >
-                {"<->"}
+                {"->"}
               </button>
             </div>
             <div id="title">

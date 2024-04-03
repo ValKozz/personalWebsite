@@ -6,15 +6,22 @@
   text-align: center;
   word-break: break-all;
   filter: drop-shadow(0 0 2em #646cffaa);
+  flex-direction: column;
 }
 
 @media (min-width: 481px) {
   #page-title {
     font-size: 6rem;
   }
+  #page-subtitle {
+    font-size: 3rem;
+  }
 }
 
-@media (max-width: 481px) {
+@media (max-width: 480px) {
+  #title-page {
+    height: 100vh;
+  }
   #page-title {
     font-size: 3rem;
   }

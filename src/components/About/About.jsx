@@ -14,14 +14,12 @@ export default function About() {
               </h1>
             </div>
             <div id="text-area">
-              <p>
-                I am an asparing Python Developer with branching interests in
-                many things, Design, AI, 3D Graphics and Linux systems among
-                them. Current main focus is on Python and React. I have
-                extensive expierince in hardware and integrated systems to a
+              <p className="about-overview">
+                I am an aspiring Python Developer with branching interests -
+                Design, AI and Linux systems among them. Current main focus is
+                on Python and React. I have expierince integrated systems to a
                 point as well as a Computer Hardware and Technology professional
-                Diploma. Looking to branch out into Software Development and
-                Automation.
+                Diploma. Looking to branch out into Software Development.
               </p>
             </div>
           </div>
