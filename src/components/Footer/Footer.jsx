@@ -21,7 +21,10 @@ export default function Footer() {
               </a>
             </li>
             <li>
-              <a className="icon-wrapper" href="https://linkedin.com">
+              <a
+                className="icon-wrapper"
+                href="www.linkedin.com/in/valeri-kozarev-b31a32298"
+              >
                 <span id="Linkedin" className="icon">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
