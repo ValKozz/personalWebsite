@@ -14,7 +14,7 @@ export default function Contact() {
     if (messages_sent < 2) {
       messages_sent = messages_sent + 1;
       emailjs.sendForm(
-        "service_p9egi5g",
+        "service_jjew7x3",    // Bad practice, but this is the only way it would work
         "template_fp3gf9v",
         e.target,
         "_mHX7xlw4gS_IzzOd"
